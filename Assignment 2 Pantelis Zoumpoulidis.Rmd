@@ -1,0 +1,33 @@
+---
+title: "Assignment 2"
+author: "Pantelis Zoumpoulidis"
+date: "10/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Wave Plot
+
+```{r, echo=FALSE}
+
+x <- seq(0, 20, 0.01)
+
+y <- sin(x)
+
+sin_df <- data.frame(x, y)
+
+plot(x, y)
+
+```
+
+
+## Replicability and reproducibility
+
+
+
+Replicability is the quality of being able to be exactly copied or reproduced.
+
+Reproducibility is the ability to be reproduced or copied.
